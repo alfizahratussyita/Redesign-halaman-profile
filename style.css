@@ -1,0 +1,126 @@
+:root {
+  --primary-color: #0d9488;        /* Warna utama: Deep Teal */
+  --primary-hover: #0f766e;        /* Teal lebih gelap saat di-hover */
+  --accent-color: #059669;         /* Warna aksen: Emerald Green */
+  --bg-body: #f0fdf4;              /* Background lembut bersentuhan mint */
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg-body);
+  color: #1e293b;
+  line-height: 1.7;
+}
+
+h1, h2, h3, .heading-font {
+  font-family: var(--font-heading);
+}
+
+/* Custom Glass & Shadow Card Effect */
+.custom-card {
+  background: #ffffff;
+  border: 1px solid rgba(204, 251, 241, 0.8);
+  border-radius: 20px;
+  box-shadow: 0 4px 15px -2px rgba(13, 148, 136, 0.05);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.custom-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 25px -5px rgba(13, 148, 136, 0.12) !important;
+}
+
+/* Header Profile Hero - Gradasi Emerald ke Teal */
+.profile-hero {
+  background: linear-gradient(135deg, #ccfbf1 0%, #e0e7ff 100%);
+  border-radius: 24px;
+}
+
+.badge-soft-primary {
+  background-color: #0d9488;
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+}
+
+/* Badge Skills Warna-Warni Beda Warna */
+.skill-badge {
+  font-size: 0.88rem;
+  padding: 8px 16px;
+  border-radius: 12px;
+  background: #e0f2fe;
+  color: #0369a1;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.skill-badge:nth-child(2n) {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.skill-badge:nth-child(3n) {
+  background: #fce7f3;
+  color: #be185d;
+}
+
+.skill-badge:hover {
+  background: var(--primary-color);
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+/* Proyek Item Gradient Line */
+.project-item {
+  border-left: 4px solid var(--accent-color);
+  background: #f8fafc;
+  border-radius: 12px;
+  transition: all 0.2s ease;
+}
+
+.project-item:hover {
+  background: #f0fdf4;
+}
+
+.nav-link {
+  font-size: 0.95rem;
+  color: #64748b;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+  color: var(--primary-color) !important;
+}
+
+.btn-custom-primary {
+  background: linear-gradient(135deg, #0d9488 0%, #059669 100%);
+  color: #ffffff;
+  border-radius: 12px;
+  padding: 10px 20px;
+  font-weight: 600;
+  border: none;
+  transition: all 0.2s ease;
+}
+
+.btn-custom-primary:hover {
+  opacity: 0.9;
+  color: #ffffff;
+  box-shadow: 0 10px 15px -3px rgba(13, 148, 136, 0.3);
+}
+
+.table-custom {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.table-custom th {
+  background-color: #ccfbf1;
+  color: #0f766e;
+  font-weight: 600;
+}
+
+.text-primary, .bi-person-vcard, .bi-stars, .bi-chat-dots, .bi-book-half, .bi-cpu-fill {
+  color: var(--primary-color) !important;
+}

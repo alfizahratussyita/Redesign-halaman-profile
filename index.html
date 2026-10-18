@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Pribadi - Alfi Zahratus Syita</title>
+  
+  <!-- Bootstrap 5 CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Google Fonts: Plus Jakarta Sans & Playfair Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- File CSS Kustom (Pastikan nama file persis: style.css) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigasi / Header -->
+  <header id="beranda" class="sticky-top bg-white border-bottom shadow-sm py-2">
+    <nav class="navbar navbar-expand-lg navbar-light container">
+      <a class="navbar-brand fw-bold fs-3" href="#beranda" style="color: var(--primary-color);">AZS<span class="text-dark">.</span></a>
+      <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav gap-lg-3 text-center text-lg-start mt-3 mt-lg-0">
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#tentang">Tentang</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#data-pribadi">Data Pribadi</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#pendidikan">Pendidikan</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#keahlian">Keahlian</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#proyek">Proyek</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#kontak">Kontak</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container my-4 my-md-5">
+    <div class="row g-4">
+      
+      <!-- Kolom Kiri / Utama -->
+      <div class="col-12 col-lg-8">
+        <div class="d-flex flex-column gap-4">
+          
+          <!-- Section Hero / Header Profil -->
+          <section id="tentang" class="custom-card profile-hero p-4 p-md-5">
+            <div>
+              <span class="badge badge-soft-primary px-3 py-2 rounded-pill mb-3">
+                <i class="bi bi-person-badge me-1"></i> PROFIL PRIBADI
+              </span>
+              <h1 class="display-5 display-md-4 fw-bold text-dark mb-1">Alfi Zahratus Syita</h1>
+              <p class="fs-5 fw-medium mb-3" style="color: var(--primary-color);">
+                <i class="bi bi-mortarboard-fill me-1"></i> Mahasiswa Sistem Informasi
+              </p>
+              <hr class="my-4" style="opacity: 0.15;">
+              <h2 class="h5 fw-bold text-dark mb-2">Tentang Saya</h2>
+              <p class="lead fs-6 text-secondary mb-0">
+                Halo! Saya adalah mahasiswa S1 Sistem Informasi yang memiliki ketertarikan mendalam pada dunia teknologi, pemrograman web, dan pengembangan sistem informasi. Saya sangat senang mempelajari hal-hal baru dan berkomitmen untuk terus mengasah kemampuan di bidang teknologi.
+              </p>
+            </div>
+          </section>
+
+          <!-- Section Riwayat Pendidikan -->
+          <section id="pendidikan" class="custom-card p-4 p-md-5">
+            <h2 class="h4 fw-bold text-dark mb-4 pb-2 border-bottom">
+              <i class="bi bi-book-half text-primary me-2"></i>Riwayat Pendidikan
+            </h2>
+            <div class="table-responsive table-custom">
+              <table class="table table-borderless align-middle mb-0">
+                <thead>
+                  <tr>
+                    <th scope="col" class="py-3">No</th>
+                    <th scope="col" class="py-3">Jenjang</th>
+                    <th scope="col" class="py-3">Nama Institusi</th>
+                    <th scope="col" class="py-3">Tahun</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="border-bottom">
+                    <th scope="row">1</th>
+                    <td><span class="badge bg-secondary-subtle text-dark px-2 py-1">SMK</span></td>
+                    <td class="fw-medium">SMK Telkom Terpadu AKN Marzuqi</td>
+                    <td class="text-muted">2022 - 2025</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td><span class="badge badge-soft-primary px-2 py-1">S1</span></td>
+                    <td class="fw-medium">Universitas Dian Nuswantoro</td>
+                    <td class="text-muted">2025 - Sekarang</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <!-- Section Pengalaman dan Proyek -->
+          <section id="proyek" class="custom-card p-4 p-md-5">
+            <h2 class="h4 fw-bold text-dark mb-4 pb-2 border-bottom">
+              <i class="bi bi-cpu-fill text-primary me-2"></i>Pengalaman dan Proyek
+            </h2>
+            <div class="d-flex flex-column gap-3">
+              <article class="p-3 p-md-4 project-item">
+                <div class="d-flex align-items-center gap-2 mb-2">
+                  <i class="bi bi-bluetooth text-primary fs-5"></i>
+                  <h3 class="h5 fw-bold text-dark mb-0">Proyek Smart Home</h3>
+                </div>
+                <p class="mb-0 text-secondary">
+                  Merancang dan membuat proyek Smart Home yang dapat dikendalikan jarak jauh menggunakan koneksi Bluetooth dari smartphone.
+                </p>
+              </article>
+              <article class="p-3 p-md-4 project-item">
+                <div class="d-flex align-items-center gap-2 mb-2">
+                  <i class="bi bi-code-slash text-primary fs-5"></i>
+                  <h3 class="h5 fw-bold text-dark mb-0">Pengembangan Website & Database</h3>
+                </div>
+                <p class="mb-0 text-secondary">
+                  Mendalami konsep pengembangan website interaktif serta tata cara pengolahan database yang terstruktur.
+                </p>
+              </article>
+            </div>
+          </section>
+
+        </div>
+      </div>
+
+      <!-- Kolom Kanan / Samping -->
+      <div class="col-12 col-lg-4">
+        <div class="d-flex flex-column gap-4">
+          
+          <!-- Section Data Pribadi -->
+          <section id="data-pribadi" class="custom-card p-4">
+            <h2 class="h5 fw-bold text-dark mb-3 pb-2 border-bottom">
+              <i class="bi bi-person-vcard text-primary me-2"></i>Data Pribadi
+            </h2>
+            <ul class="list-unstyled d-flex flex-column gap-3 mb-0">
+              <li class="d-flex gap-3 align-items-center">
+                <i class="bi bi-person text-primary fs-5"></i>
+                <div>
+                  <small class="text-muted d-block">Nama Lengkap</small>
+                  <span class="fw-semibold text-dark">Alfi Zahratus Syita</span>
+                </div>
+              </li>
+              <li class="d-flex gap-3 align-items-center">
+                <i class="bi bi-journal-bookmark text-primary fs-5"></i>
+                <div>
+                  <small class="text-muted d-block">Program Studi</small>
+                  <span class="fw-semibold text-dark">Sistem Informasi</span>
+                </div>
+              </li>
+              <li class="d-flex gap-3 align-items-center">
+                <i class="bi bi-building text-primary fs-5"></i>
+                <div>
+                  <small class="text-muted d-block">Universitas</small>
+                  <span class="fw-semibold text-dark">Universitas Dian Nuswantoro</span>
+                </div>
+              </li>
+              <li class="d-flex gap-3 align-items-center">
+                <i class="bi bi-envelope text-primary fs-5"></i>
+                <div class="text-break">
+                  <small class="text-muted d-block">Email</small>
+                  <a href="mailto:alfizahra2008@gmail.com" class="text-decoration-none fw-semibold text-primary">alfizahra2008@gmail.com</a>
+                </div>
+              </li>
+              <li class="d-flex gap-3 align-items-center">
+                <i class="bi bi-geo-alt text-primary fs-5"></i>
+                <div>
+                  <small class="text-muted d-block">Alamat</small>
+                  <span class="fw-semibold text-dark">Pati, Jawa Tengah</span>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!-- Section Keahlian (Skills) -->
+          <section id="keahlian" class="custom-card p-4">
+            <h2 class="h5 fw-bold text-dark mb-3 pb-2 border-bottom">
+              <i class="bi bi-stars text-primary me-2"></i>Keahlian (Skills)
+            </h2>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="skill-badge"><i class="bi bi-filetype-html me-1"></i> HTML & CSS</span>
+              <span class="skill-badge"><i class="bi bi-laptop me-1"></i> Pemrograman Web</span>
+              <span class="skill-badge"><i class="bi bi-database me-1"></i> Database MySQL</span>
+              <span class="skill-badge"><i class="bi bi-filetype-php me-1"></i> Dasar PHP</span>
+              <span class="skill-badge"><i class="bi bi-people me-1"></i> Kerja Sama Tim</span>
+            </div>
+          </section>
+
+          <!-- Section Kontak -->
+          <section id="kontak" class="custom-card p-4">
+            <h2 class="h5 fw-bold text-dark mb-3 pb-2 border-bottom">
+              <i class="bi bi-chat-dots text-primary me-2"></i>Kontak
+            </h2>
+            <p class="text-muted small mb-3">Jangan ragu untuk menghubungi saya melalui saluran berikut:</p>
+            <div class="d-grid gap-2">
+              <a href="mailto:alfizahra2008@gmail.com" class="btn btn-custom-primary text-center">
+                <i class="bi bi-envelope-fill me-2"></i>Kirim Email
+              </a>
+              <a href="https://instagram.com/_syitata" target="_blank" rel="noopener noreferrer" class="btn btn-outline-secondary text-center rounded-3 fw-semibold">
+                <i class="bi bi-instagram me-2 text-danger"></i>@_syitata
+              </a>
+            </div>
+          </section>
+
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-white border-top py-4 mt-5">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+      <p class="mb-0 small text-muted text-center text-md-start">&copy; 2026 Alfi Zahratus Syita. Halaman profil Pemrograman Web.</p>
+      <a href="#beranda" class="btn btn-sm btn-outline-primary rounded-pill px-3">
+        Kembali ke atas <i class="bi bi-arrow-up-short"></i>
+      </a>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JavaScript Bundle CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/bootstrap.bundle.min.js"></script>
+</body>
+</html>
